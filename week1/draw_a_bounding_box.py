@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 # Đọc ảnh
-img = cv2.imread('th.jpg', cv2.IMREAD_GRAYSCALE)
+img = cv2.imread('.\\image\\th.jpg', cv2.IMREAD_GRAYSCALE)
 
 # Làm mịn ảnh
 img = cv2.medianBlur(img, 5)
